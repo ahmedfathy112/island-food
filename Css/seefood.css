@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e6e6f0;
+    margin: 0 20px;
+    background: linear-gradient(#193aa7 ,#400395 );
+    background-image: url(../images/seefood-img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+/* .seafood > h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 30px;
+    color: #e6e6f0;
+} */
+.seafood .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #17181b;
+    border-radius: 20px;
+    padding: 12px 30px;
+    opacity: 0.8;
+    margin-top: 200px;
+}
+.seafood .info .img img {
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+}
+.seafood .info .word h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #e6e6f0;
+    padding: 12px 15px;
+    margin-right: 50px;
+    border: 3px solid cornflowerblue;
+    border-radius: 18px;
+    text-align: center;
+    opacity: 1;
+}
+.seafood .info .word h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    color: #b3c326;
+    padding: 20px 25px;
+    margin: 19px 15px;
+    border: 3px solid cyan;
+    border-radius: 18px;
+    margin-right: 50px;
+    opacity: 1;
+}
+.seafood .title h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6565b5;
+    margin: 50px 12px;
+    text-align: center;
+    border: 4px outset teal;
+    padding: 12px 20px;
+    width: 90%;
+    margin-left: 75px;
+    border-radius: 18px;
+    background-color: #17181b;
+    opacity: 0.8;
+}
+.seafood .cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.seafood .cards .card {
+    width: 21em;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset,
+     rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    border-radius: 18px;
+    margin: 12px 13px;
+    padding: 15px;
+    background-color: #121520;
+    transition: 0.5s ease;
+    opacity: 0.9;
+}
+.seafood .cards .card:hover {
+    background-color:#242932;
+    cursor: pointer;
+    transform: scale(1.04);
+    opacity: 1;
+}
+.seafood .cards .card img {
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin-left: 25px;
+}
+.seafood .cards .card .inf h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+    color: #e6e6f0;
+}
+.seafood .cards .card .inf  h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: #e6e6f0;
+}
+.seafood .cards .card .inf  h3 span {
+    font-size: 20px;
+    font-weight: 900;
+    color: #b3c326;
+}
+.seafood .cards .card .inf .price {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin:12px;
+    color: #e6e6f0;
+}
+.seafood .cards .card .inf .price >span {
+    font-size: 27px;
+    font-weight: 700;
+    opacity: 0.7;
+    color:#b3c326;
+}
+.seafood .cards .card .btn a {
+    display: block;
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: #025cbd;
+    color: #e6e6f0;
+    border-radius: 18px;
+    transition: 0.5s ease;
+}
+.seafood .cards .card .btn a:hover {
+    opacity: 0.7;
+    transform: scale(1.09);
+    background-color: #040156;
+}
+
+
+/* =========================================== */
+/* Nav-Bar */
+.main-head {
+    width: 100%;
+}
+.main-head .nav-pizaa {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #121520;
+    opacity: 0.6;
+    height: 15%;
+    border-radius: 0 0 100px 100px;
+    transition: 1s ease;
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    z-index: 3;
+    cursor: pointer;
+}
+.main-head .nav-pizaa:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.main-head .nav-pizaa .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 200px;
+}
+.main-head .nav-pizaa .nav-link {
+    display:flex;
+    justify-content: space-between;
+}
+.main-head .nav-pizaa .nav-link ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-head .nav-pizaa .nav-link ul a {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 50px;
+    margin-right: 50px;
+    transition: 1s ease;
+}
+.main-head .nav-pizaa .nav-link ul a:hover {
+    color: #193aa7;
+}

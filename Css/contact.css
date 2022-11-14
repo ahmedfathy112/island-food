@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body {
+    background-color: black;
+}
+.contact {
+    text-align: center;
+    background: url(pexels-pixabay-270360.jpg) no-repeat;
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 450vh;
+    overflow: hidden;
+}
+.contact .title h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+    z-index: 100;
+}
+.contact .cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.contact .cards .card {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 18px;
+    background-color: rgb(26, 22, 22);
+    opacity: 0.9;
+    margin: 12px 15px;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+.contact .cards .card:hover {
+    opacity: 1;
+    background-color: rgb(23, 21, 21);
+    cursor: pointer;
+}
+.contact .cards .card .img {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact .cards .card .img img {
+    border-radius: 50%;
+    margin-left: 20px;
+    height: 250px;
+    width: 250px;
+}
+.contact .cards .card .img .icons ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 5px;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 18px;
+    background-color: rgb(27, 23, 23);
+}
+.contact .cards .card .img .icons ul li {
+    font-size: 25px;
+    margin-right: 12px;
+    letter-spacing: 25px;
+}
+.contact .cards .card .img .icons ul li a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+}
+.contact .cards .card .info {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+.contact .cards .card .info span {
+    color: rgb(102, 255, 0);
+}
+
+/* =========================================== */
+/* Nav-Bar */
+.main-head {
+    width: 100%;
+}
+.main-head .nav-pizaa {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #121520;
+    opacity: 0.5;
+    height: 15%;
+    border-radius: 0 0 100px 100px;
+    transition: 1s ease;
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    z-index: 3;
+    cursor: pointer;
+}
+.main-head .nav-pizaa:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+.main-head .nav-pizaa .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 200px;
+}
+.main-head .nav-pizaa .nav-link {
+    display:flex;
+    justify-content: space-between;
+}
+.main-head .nav-pizaa .nav-link ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-head .nav-pizaa .nav-link ul a {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 50px;
+    margin-right: 50px;
+    transition: 1s ease;
+}
+.main-head .nav-pizaa .nav-link ul a:hover {
+    color: #193aa7;
+}

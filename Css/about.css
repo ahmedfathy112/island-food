@@ -1,0 +1,146 @@
+*{
+    margin: 0; padding: 0; text-decoration: none; list-style-type: none;
+}
+.about{
+    background-color: #333;
+    margin: auto;
+}
+/* Start About-Us */
+
+.about-us{
+   height: 30vh;
+}
+.about-us h1{
+   font-size: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   margin: auto;
+   text-align: center;
+   color: #def4e4;
+   z-index: 100;
+}
+.figuer{
+    margin-top: 30px;
+    text-align: center;
+}
+.figuer img{
+    color:;
+}
+.figuer span{
+    color: #999;
+    border-bottom: 1px solid #e3d105;
+}
+/* End About-Us */
+
+/*Start About-box */
+.about-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+.about-box .name{
+    width: 40%;
+}
+.about-box .name h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0b132b;
+}
+.about-box .name a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.about-box .name p{
+    font-size: 17px;
+    color: #999;
+    padding: 0 0 10px;
+}
+.about-box .img{
+    width: 40%;
+}
+.about-box .img #img-one{
+    border-radius: 50%;
+    border: 10px solid#fff;
+    text-align: center;
+}
+.about-box .img #img-two{
+    position: relative;
+    bottom: 300px;
+    right: 110px;
+    border-radius: 50%;
+    width: 110px;
+    border: 10px solid#fff;
+}
+/*End About-box */
+
+/* icons */
+.icons{
+    margin-left: 55%;
+}
+.icons i {
+    padding: 10px 4px;
+    color: #bababa;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.icons i:hover{
+    color: #e3d105;
+
+}
+
+/* =========================================== */
+/* Nav-Bar */
+.main-head {
+    width: 100%;
+}
+.main-head .nav-pizaa {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #121520;
+    opacity: 0.7;
+    height: 15%;
+    border-radius: 0 0 100px 100px;
+    transition: 1s ease;
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    z-index: 3;
+    cursor: pointer;
+}
+.main-head .nav-pizaa:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.main-head .nav-pizaa .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 200px;
+}
+.main-head .nav-pizaa .nav-link {
+    display:flex;
+    justify-content: space-between;
+}
+.main-head .nav-pizaa .nav-link ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-head .nav-pizaa .nav-link ul a {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 50px;
+    margin-right: 50px;
+    transition: 1s ease;
+}
+.main-head .nav-pizaa .nav-link ul a:hover {
+    color: #193aa7;
+}
